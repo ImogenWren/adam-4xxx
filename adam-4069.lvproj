@@ -27,6 +27,7 @@
 			<Item Name="relative-file-path-finder-test-vi.vi" Type="VI" URL="../util/relative-file-path-finder-test-vi.vi"/>
 			<Item Name="relative-file-path-finder.vi" Type="VI" URL="../util/relative-file-path-finder.vi"/>
 		</Item>
+		<Item Name="adam-4xxxl.vi" Type="VI" URL="../adam-4xxxl.vi"/>
 		<Item Name="adam-4069-basic.vi" Type="VI" URL="../util/adam-4069-basic.vi"/>
 		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
