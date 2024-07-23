@@ -50,7 +50,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="adam-close-port.vi" Type="VI" URL="../util/adam-close-port.vi"/>
-			<Item Name="settings-recall.vi" Type="VI" URL="../util/settings-recall.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="magnetic-actuator" Type="EXE">
