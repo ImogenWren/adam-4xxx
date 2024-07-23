@@ -2,7 +2,8 @@
 Methods for control of ADAM-4xxx modules
 
 ## Wiring
-![image](https://github.com/user-attachments/assets/2645c0d8-119b-4bc3-8b98-ef4965502fd8)
+![image](https://github.com/user-attachments/assets/08e5e9f3-cdbb-4225-b618-eac8455807b8)
+
 
 
 ## ASCII Commands List
