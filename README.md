@@ -7,6 +7,16 @@ Methods for control of ADAM-4xxx modules
 
 
 ## ASCII Commands List
+### Module: adam-4069
+Command Structure:
+`#(AA)(BB)(CC)`
+- AA: Module Address (01)
+- BB: Channel:
+  - 00: All Channels
+  - 0B: Channel Number (hex)
+- CC: State
+  - All Channels: CC (hex)
+  - One Channel: 0C (0,1)
 | Command | Action            |  Valid Response | Invalid Response |
 |---      |---                |---              |---               |
 | #010000 | All Channels: Off | >               | ?AA AA is module address)            |
@@ -15,6 +25,28 @@ Methods for control of ADAM-4xxx modules
 | #011001 | Channel 0: On     |
 | #011100 | Channel 1: Off    |
 | #011101 | Channel 1: On     |
+
+### Module: adam-4017+
+Command Structure:
+`#(AA)(BB)(CC)`
+- AA: Module Address (01)
+- BB: Channel:
+  - 00: All Channels
+  - 0B: Channel Number (hex)
+- CC: State
+  - All Channels: CC (hex)
+  - One Channel: 0C (0,1)
+| Command | Action            |  Valid Response | Invalid Response |
+|---      |---                |---              |---               |
+| #010000 | All Channels: Off | >               | ?AA AA is module address)            |
+| #01000F | All Channels: On  |
+| #011000 | Channel 0: Off    |
+| #011001 | Channel 0: On     |
+| #011100 | Channel 1: Off    |
+| #011101 | Channel 1: On     |
+
+
+
 
 ### Digital Output Command Structure
 
