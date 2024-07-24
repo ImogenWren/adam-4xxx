@@ -31,6 +31,7 @@
 		<Item Name="adam-4069-basic.vi" Type="VI" URL="../util/adam-4069-basic.vi"/>
 		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
+		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
