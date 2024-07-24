@@ -17,6 +17,7 @@ Command Structure:
 - CC: State
   - All Channels: CC (hex)
   - One Channel: 0C (0,1)
+  
 | Command | Action            |  Valid Response | Invalid Response |
 |---      |---                |---              |---               |
 | #010000 | All Channels: Off | >               | ?AA AA is module address)            |
@@ -36,6 +37,7 @@ Command Structure:
 - CC: State
   - All Channels: CC (hex)
   - One Channel: 0C (0,1)
+  
 | Command | Action            |  Valid Response | Invalid Response |
 |---      |---                |---              |---               |
 | #010000 | All Channels: Off | >               | ?AA AA is module address)            |
