@@ -33,6 +33,9 @@
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
+		<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
+		<Item Name="state-enum.ctl" Type="VI" URL="../template/state-enum.ctl"/>
+		<Item Name="template-state-machine-iwh.vi" Type="VI" URL="../template/template-state-machine-iwh.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
