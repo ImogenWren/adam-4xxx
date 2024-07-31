@@ -10,18 +10,28 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="csv-file-logging" Type="Folder">
-			<Item Name="build-filepath.vi" Type="VI" URL="../template/csv-file-logging/build-filepath.vi"/>
-			<Item Name="csv-log-data-headings.vi" Type="VI" URL="../template/csv-file-logging/csv-log-data-headings.vi"/>
-			<Item Name="csv-log-data.vi" Type="VI" URL="../template/csv-file-logging/csv-log-data.vi"/>
-			<Item Name="filepath-selection.ctl" Type="VI" URL="../template/csv-file-logging/filepath-selection.ctl"/>
-		</Item>
 		<Item Name="distillation-column-magnetic-actuator" Type="Folder">
 			<Item Name="mag-settings.ctl" Type="VI" URL="../distillation-column-magnetic-actuator/mag-settings.ctl"/>
 			<Item Name="magnetic-actuator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/magnetic-actuator.vi"/>
 			<Item Name="README.md" Type="Document" URL="../distillation-column-magnetic-actuator/README.md"/>
 			<Item Name="settings-recall-mag-actuator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/settings-recall-mag-actuator.vi"/>
 			<Item Name="ui-mode-radio-button.ctl" Type="VI" URL="../distillation-column-magnetic-actuator/ui-mode-radio-button.ctl"/>
+		</Item>
+		<Item Name="template-state-machine" Type="Folder">
+			<Item Name="csv-file-logging" Type="Folder">
+				<Item Name="build-filepath.vi" Type="VI" URL="../template/csv-file-logging/build-filepath.vi"/>
+				<Item Name="csv-log-data-headings.vi" Type="VI" URL="../template/csv-file-logging/csv-log-data-headings.vi"/>
+				<Item Name="csv-log-data.vi" Type="VI" URL="../template/csv-file-logging/csv-log-data.vi"/>
+				<Item Name="datalogging-options.ctl" Type="VI" URL="../template/csv-file-logging/datalogging-options.ctl"/>
+				<Item Name="filepath-selection-out.ctl" Type="VI" URL="../template/csv-file-logging/filepath-selection-out.ctl"/>
+				<Item Name="filepath-selection-vi.vi" Type="VI" URL="../template/filepath-selection-vi.vi"/>
+				<Item Name="filepath-selection.ctl" Type="VI" URL="../template/csv-file-logging/filepath-selection.ctl"/>
+			</Item>
+			<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
+			<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
+			<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
+			<Item Name="state-enum.ctl" Type="VI" URL="../template/state-enum.ctl"/>
+			<Item Name="template-state-machine-iwh.vi" Type="VI" URL="../template/template-state-machine-iwh.vi"/>
 		</Item>
 		<Item Name="util" Type="Folder">
 			<Item Name="adam-check-DO-reply.vi" Type="VI" URL="../util/adam-check-DO-reply.vi"/>
@@ -38,12 +48,7 @@
 		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
-		<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
-		<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
-		<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
-		<Item Name="state-enum.ctl" Type="VI" URL="../template/state-enum.ctl"/>
-		<Item Name="template-state-machine-iwh.vi" Type="VI" URL="../template/template-state-machine-iwh.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
