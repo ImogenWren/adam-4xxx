@@ -10,6 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="csv-file-logging" Type="Folder">
+			<Item Name="build-filepath.vi" Type="VI" URL="../template/csv-file-logging/build-filepath.vi"/>
+			<Item Name="csv-log-data-headings.vi" Type="VI" URL="../template/csv-file-logging/csv-log-data-headings.vi"/>
+			<Item Name="csv-log-data.vi" Type="VI" URL="../template/csv-file-logging/csv-log-data.vi"/>
+			<Item Name="filepath-selection.ctl" Type="VI" URL="../template/csv-file-logging/filepath-selection.ctl"/>
+		</Item>
 		<Item Name="distillation-column-magnetic-actuator" Type="Folder">
 			<Item Name="mag-settings.ctl" Type="VI" URL="../distillation-column-magnetic-actuator/mag-settings.ctl"/>
 			<Item Name="magnetic-actuator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/magnetic-actuator.vi"/>
@@ -32,6 +38,7 @@
 		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
+		<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
 		<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
 		<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
@@ -40,6 +47,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
