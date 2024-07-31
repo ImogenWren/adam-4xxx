@@ -33,6 +33,7 @@
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
+		<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
 		<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
 		<Item Name="state-enum.ctl" Type="VI" URL="../template/state-enum.ctl"/>
 		<Item Name="template-state-machine-iwh.vi" Type="VI" URL="../template/template-state-machine-iwh.vi"/>
