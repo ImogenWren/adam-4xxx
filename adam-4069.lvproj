@@ -47,6 +47,7 @@
 		<Item Name="adam-4069-basic.vi" Type="VI" URL="../util/adam-4069-basic.vi"/>
 		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
+		<Item Name="adam-analog-data-read.vi" Type="VI" URL="../template/adam-analog-data-read.vi"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
 		<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
