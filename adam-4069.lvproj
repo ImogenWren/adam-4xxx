@@ -48,7 +48,9 @@
 		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
+		<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
+		<Item Name="serial-options.ctl" Type="VI" URL="../template/serial-options.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
