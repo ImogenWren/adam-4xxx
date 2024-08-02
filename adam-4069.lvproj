@@ -27,6 +27,7 @@
 				<Item Name="filepath-selection-vi.vi" Type="VI" URL="../template/filepath-selection-vi.vi"/>
 				<Item Name="filepath-selection.ctl" Type="VI" URL="../template/csv-file-logging/filepath-selection.ctl"/>
 			</Item>
+			<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
 			<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
 			<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
 			<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
@@ -49,8 +50,10 @@
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-analog-data-read.vi" Type="VI" URL="../template/adam-analog-data-read.vi"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
-		<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
+		<Item Name="is-serial-port-open.vi" Type="VI" URL="../template/is-serial-port-open.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
+		<Item Name="scan-value-from-msg.vi" Type="VI" URL="../template/scan-value-from-msg.vi"/>
+		<Item Name="sensor-options.ctl" Type="VI" URL="../template/sensor-options.ctl"/>
 		<Item Name="serial-options.ctl" Type="VI" URL="../template/serial-options.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
