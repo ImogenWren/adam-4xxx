@@ -52,6 +52,7 @@
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
 		<Item Name="is-serial-port-open.vi" Type="VI" URL="../template/is-serial-port-open.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
+		<Item Name="scale-sensors.vi" Type="VI" URL="../template/scale-sensors.vi"/>
 		<Item Name="scan-value-from-msg.vi" Type="VI" URL="../template/scan-value-from-msg.vi"/>
 		<Item Name="sensor-options.ctl" Type="VI" URL="../template/sensor-options.ctl"/>
 		<Item Name="serial-options.ctl" Type="VI" URL="../template/serial-options.ctl"/>
