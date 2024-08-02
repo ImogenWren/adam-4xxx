@@ -1,6 +1,15 @@
 # adam-4xxx
 Methods for control of ADAM-4xxx modules
 
+## Generic Vi for Testing Commands
+![image](https://github.com/user-attachments/assets/0620fe4f-394b-4724-a18e-8c880ff78758)
+
+## User Interface using State Machine for Analog Data Sampling
+![image](https://github.com/user-attachments/assets/e6c081b9-643f-4df1-99e4-064c3e1fa25e)
+![image](https://github.com/user-attachments/assets/e3b96b92-593e-4dd2-a1b0-848433636f96)
+
+
+
 ## Wiring
 ![image](https://github.com/user-attachments/assets/08e5e9f3-cdbb-4225-b618-eac8455807b8)
 
