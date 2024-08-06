@@ -11,14 +11,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="adam-main" Type="Folder">
-			<Item Name="adam-4xxxl.vi" Type="VI" URL="../adam-4xxxl.vi"/>
-			<Item Name="adam-4069-basic.vi" Type="VI" URL="../util/adam-4069-basic.vi"/>
-			<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
+			<Item Name="depreciated" Type="Folder">
+				<Item Name="adam-4069-basic.vi" Type="VI" URL="../adam-util/adam-4069-basic.vi"/>
+				<Item Name="adam-4069-channel.vi" Type="VI" URL="../adam-util/adam-4069-channel.vi"/>
+			</Item>
+			<Item Name="adam-4xxxl.vi" Type="VI" URL="../adam-main/adam-4xxxl.vi"/>
 			<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		</Item>
 		<Item Name="adam-util" Type="Folder">
-			<Item Name="adam-analog-data-read.vi" Type="VI" URL="../template/adam-analog-data-read.vi"/>
+			<Item Name="adam-analog-data-read.vi" Type="VI" URL="../adam-util/adam-analog-data-read.vi"/>
 			<Item Name="adam-check-DO-reply.vi" Type="VI" URL="../util/adam-check-DO-reply.vi"/>
+			<Item Name="adam-close-port.vi" Type="VI" URL="../adam-util/adam-close-port.vi"/>
 			<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
 			<Item Name="adam-DO-channel-command-builder.vi" Type="VI" URL="../util/adam-DO-channel-command-builder.vi"/>
 			<Item Name="adam-DO-send-command.vi" Type="VI" URL="../util/adam-DO-send-command.vi"/>
@@ -31,6 +34,9 @@
 			<Item Name="README.md" Type="Document" URL="../distillation-column-magnetic-actuator/README.md"/>
 			<Item Name="settings-recall-mag-actuator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/settings-recall-mag-actuator.vi"/>
 			<Item Name="ui-mode-radio-button.ctl" Type="VI" URL="../distillation-column-magnetic-actuator/ui-mode-radio-button.ctl"/>
+		</Item>
+		<Item Name="pressure-logger" Type="Folder">
+			<Item Name="pressure-logger-main.vi" Type="VI" URL="../pressure-logger/pressure-logger-main.vi"/>
 		</Item>
 		<Item Name="template-state-machine" Type="Folder">
 			<Item Name="csv-file-logging" Type="Folder">
@@ -56,9 +62,9 @@
 				<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
 				<Item Name="is-serial-port-open.vi" Type="VI" URL="../template/is-serial-port-open.vi"/>
 				<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
-				<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../util/period-duty-time-high-low.vi"/>
-				<Item Name="relative-file-path-finder-test-vi.vi" Type="VI" URL="../util/relative-file-path-finder-test-vi.vi"/>
-				<Item Name="relative-file-path-finder.vi" Type="VI" URL="../util/relative-file-path-finder.vi"/>
+				<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../sub-vi/period-duty-time-high-low.vi"/>
+				<Item Name="relative-file-path-finder-test-vi.vi" Type="VI" URL="../sub-vi/relative-file-path-finder-test-vi.vi"/>
+				<Item Name="relative-file-path-finder.vi" Type="VI" URL="../sub-vi/relative-file-path-finder.vi"/>
 				<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
 				<Item Name="scale-sensors.vi" Type="VI" URL="../template/scale-sensors.vi"/>
 				<Item Name="scan-value-from-msg.vi" Type="VI" URL="../template/scan-value-from-msg.vi"/>
@@ -86,7 +92,14 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="adam-check-DO-reply.vi" Type="VI" URL="../adam-util/adam-check-DO-reply.vi"/>
 			<Item Name="adam-close-port.vi" Type="VI" URL="../util/adam-close-port.vi"/>
+			<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../adam-util/adam-cmd-builder-2(SubVI).vi"/>
+			<Item Name="adam-DO-channel-command-builder.vi" Type="VI" URL="../adam-util/adam-DO-channel-command-builder.vi"/>
+			<Item Name="adam-DO-send-command.vi" Type="VI" URL="../adam-util/adam-DO-send-command.vi"/>
+			<Item Name="adam-init.vi" Type="VI" URL="../adam-util/adam-init.vi"/>
+			<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../util/period-duty-time-high-low.vi"/>
+			<Item Name="relative-file-path-finder.vi" Type="VI" URL="../util/relative-file-path-finder.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="magnetic-actuator" Type="EXE">
