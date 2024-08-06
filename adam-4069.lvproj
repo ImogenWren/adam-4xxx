@@ -10,7 +10,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="adam-main" Type="Folder">
+			<Item Name="adam-4xxxl.vi" Type="VI" URL="../adam-4xxxl.vi"/>
+			<Item Name="adam-4069-basic.vi" Type="VI" URL="../util/adam-4069-basic.vi"/>
+			<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
+			<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
+		</Item>
+		<Item Name="adam-util" Type="Folder">
+			<Item Name="adam-analog-data-read.vi" Type="VI" URL="../template/adam-analog-data-read.vi"/>
+			<Item Name="adam-check-DO-reply.vi" Type="VI" URL="../util/adam-check-DO-reply.vi"/>
+			<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
+			<Item Name="adam-DO-channel-command-builder.vi" Type="VI" URL="../util/adam-DO-channel-command-builder.vi"/>
+			<Item Name="adam-DO-send-command.vi" Type="VI" URL="../util/adam-DO-send-command.vi"/>
+			<Item Name="adam-init.vi" Type="VI" URL="../util/adam-init.vi"/>
+		</Item>
 		<Item Name="distillation-column-magnetic-actuator" Type="Folder">
+			<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
 			<Item Name="mag-settings.ctl" Type="VI" URL="../distillation-column-magnetic-actuator/mag-settings.ctl"/>
 			<Item Name="magnetic-actuator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/magnetic-actuator.vi"/>
 			<Item Name="README.md" Type="Document" URL="../distillation-column-magnetic-actuator/README.md"/>
@@ -27,40 +42,31 @@
 				<Item Name="filepath-selection-vi.vi" Type="VI" URL="../template/filepath-selection-vi.vi"/>
 				<Item Name="filepath-selection.ctl" Type="VI" URL="../template/csv-file-logging/filepath-selection.ctl"/>
 			</Item>
-			<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
-			<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
-			<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
-			<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
-			<Item Name="state-enum.ctl" Type="VI" URL="../template/state-enum.ctl"/>
+			<Item Name="ctl" Type="Folder">
+				<Item Name="filepath-json-cluster-feck.ctl" Type="VI" URL="../template/filepath-json-cluster-feck.ctl"/>
+				<Item Name="sensor-options.ctl" Type="VI" URL="../template/sensor-options.ctl"/>
+				<Item Name="serial-options-json-cluster-feck.ctl" Type="VI" URL="../template/serial-options-json-cluster-feck.ctl"/>
+				<Item Name="serial-options.ctl" Type="VI" URL="../template/serial-options.ctl"/>
+				<Item Name="state-enum.ctl" Type="VI" URL="../template/state-enum.ctl"/>
+			</Item>
+			<Item Name="util" Type="Folder">
+				<Item Name="decode-from-json.vi" Type="VI" URL="../template/decode-from-json.vi"/>
+				<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/duty-cycle-oscillator.vi"/>
+				<Item Name="encode-to-json.vi" Type="VI" URL="../template/encode-to-json.vi"/>
+				<Item Name="is-log-file-open.vi" Type="VI" URL="../template/is-log-file-open.vi"/>
+				<Item Name="is-serial-port-open.vi" Type="VI" URL="../template/is-serial-port-open.vi"/>
+				<Item Name="loop-time-sample-rate-calc-check.vi" Type="VI" URL="../template/loop-time-sample-rate-calc-check.vi"/>
+				<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../util/period-duty-time-high-low.vi"/>
+				<Item Name="relative-file-path-finder-test-vi.vi" Type="VI" URL="../util/relative-file-path-finder-test-vi.vi"/>
+				<Item Name="relative-file-path-finder.vi" Type="VI" URL="../util/relative-file-path-finder.vi"/>
+				<Item Name="sawtooth-wave-gen.vi" Type="VI" URL="../template/sawtooth-wave-gen.vi"/>
+				<Item Name="scale-sensors.vi" Type="VI" URL="../template/scale-sensors.vi"/>
+				<Item Name="scan-value-from-msg.vi" Type="VI" URL="../template/scan-value-from-msg.vi"/>
+				<Item Name="split-json-4-ways.vi" Type="VI" URL="../template/split-json-4-ways.vi"/>
+				<Item Name="start-stop-exit.vi" Type="VI" URL="../template/start-stop-exit.vi"/>
+			</Item>
 			<Item Name="template-state-machine-iwh.vi" Type="VI" URL="../template/template-state-machine-iwh.vi"/>
 		</Item>
-		<Item Name="util" Type="Folder">
-			<Item Name="adam-check-DO-reply.vi" Type="VI" URL="../util/adam-check-DO-reply.vi"/>
-			<Item Name="adam-DO-channel-command-builder.vi" Type="VI" URL="../util/adam-DO-channel-command-builder.vi"/>
-			<Item Name="adam-DO-send-command.vi" Type="VI" URL="../util/adam-DO-send-command.vi"/>
-			<Item Name="adam-init.vi" Type="VI" URL="../util/adam-init.vi"/>
-			<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../distillation-column-magnetic-actuator/duty-cycle-oscillator.vi"/>
-			<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../util/period-duty-time-high-low.vi"/>
-			<Item Name="relative-file-path-finder-test-vi.vi" Type="VI" URL="../util/relative-file-path-finder-test-vi.vi"/>
-			<Item Name="relative-file-path-finder.vi" Type="VI" URL="../util/relative-file-path-finder.vi"/>
-		</Item>
-		<Item Name="adam-4xxxl.vi" Type="VI" URL="../adam-4xxxl.vi"/>
-		<Item Name="adam-4069-basic.vi" Type="VI" URL="../util/adam-4069-basic.vi"/>
-		<Item Name="adam-4069-channel.vi" Type="VI" URL="../util/adam-4069-channel.vi"/>
-		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
-		<Item Name="adam-analog-data-read.vi" Type="VI" URL="../template/adam-analog-data-read.vi"/>
-		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
-		<Item Name="decode-from-json.vi" Type="VI" URL="../template/decode-from-json.vi"/>
-		<Item Name="encode-to-json.vi" Type="VI" URL="../template/encode-to-json.vi"/>
-		<Item Name="filepath-json-cluster-feck.ctl" Type="VI" URL="../template/filepath-json-cluster-feck.ctl"/>
-		<Item Name="is-serial-port-open.vi" Type="VI" URL="../template/is-serial-port-open.vi"/>
-		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
-		<Item Name="scale-sensors.vi" Type="VI" URL="../template/scale-sensors.vi"/>
-		<Item Name="scan-value-from-msg.vi" Type="VI" URL="../template/scan-value-from-msg.vi"/>
-		<Item Name="sensor-options.ctl" Type="VI" URL="../template/sensor-options.ctl"/>
-		<Item Name="serial-options-json-cluster-feck.ctl" Type="VI" URL="../template/serial-options-json-cluster-feck.ctl"/>
-		<Item Name="serial-options.ctl" Type="VI" URL="../template/serial-options.ctl"/>
-		<Item Name="split-json-4-ways.vi" Type="VI" URL="../template/split-json-4-ways.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -152,7 +158,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/magnetic-actuator-control/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/adam-4069.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/adam-main/adam-4069.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{22E016F6-12B6-4B5C-A4C9-6BD5E35A9763}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -160,7 +166,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/util/relative-file-path-finder.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/template-state-machine/util/relative-file-path-finder.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -203,7 +209,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{3C194613-0D01-40F3-9F1A-188F75B2652A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/util/relative-file-path-finder-test-vi.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/template-state-machine/util/relative-file-path-finder-test-vi.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
