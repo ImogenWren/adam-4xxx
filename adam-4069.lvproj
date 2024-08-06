@@ -50,12 +50,17 @@
 		<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
 		<Item Name="adam-analog-data-read.vi" Type="VI" URL="../template/adam-analog-data-read.vi"/>
 		<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../sub-vi/adam-cmd-builder-2(SubVI).vi"/>
+		<Item Name="decode-from-json.vi" Type="VI" URL="../template/decode-from-json.vi"/>
+		<Item Name="encode-to-json.vi" Type="VI" URL="../template/encode-to-json.vi"/>
+		<Item Name="filepath-json-cluster-feck.ctl" Type="VI" URL="../template/filepath-json-cluster-feck.ctl"/>
 		<Item Name="is-serial-port-open.vi" Type="VI" URL="../template/is-serial-port-open.vi"/>
 		<Item Name="mag-ctrl.ico" Type="Document" URL="../mag-ctrl.ico"/>
 		<Item Name="scale-sensors.vi" Type="VI" URL="../template/scale-sensors.vi"/>
 		<Item Name="scan-value-from-msg.vi" Type="VI" URL="../template/scan-value-from-msg.vi"/>
 		<Item Name="sensor-options.ctl" Type="VI" URL="../template/sensor-options.ctl"/>
+		<Item Name="serial-options-json-cluster-feck.ctl" Type="VI" URL="../template/serial-options-json-cluster-feck.ctl"/>
 		<Item Name="serial-options.ctl" Type="VI" URL="../template/serial-options.ctl"/>
+		<Item Name="split-json-4-ways.vi" Type="VI" URL="../template/split-json-4-ways.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
